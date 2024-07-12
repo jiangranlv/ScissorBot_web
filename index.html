@@ -5,7 +5,7 @@
   <meta name="description" content="Robot Parkour Learning">
   <meta name="keywords" content="Legged Locomotion, Agile Locomotion, Parkour, Reinforcement Learning, Visuomotor Control, Sim-to-Real Transfer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Robot Parkour Learning</title>
+  <title>ScissorBot: Learning Generalizable Scissor Skill for Paper Cutting via Simulation, Imitation, and Sim2Real</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -24,11 +24,15 @@
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
 
-  <link rel="icon" href="./favicon.ico">
+  <link rel="icon" href="./scissor.ico">
 
-  <meta property="og:site_name" content="Robot Parkour Learning" />
+  <meta property="og:site_name" content="ScissorBot: Learning Generalizable Scissor Skill for
+  Paper Cutting via Simulation, Imitation, and
+  Sim2Real" />
   <meta property="og:type" content="video.other" />
-  <meta property="og:title" content="Robot Parkour Learning" />
+  <meta property="og:title" content="ScissorBot: Learning Generalizable Scissor Skill for
+  Paper Cutting via Simulation, Imitation, and
+  Sim2Real" />
   <meta property="og:description" content="by Ziwen Zhuang, Zipeng Fu, Chelsea Finn, Hang Zhao" />
   <meta property="og:url" content="https://robot-parkour.github.io/" />
   <meta property="og:image" content="https://robot-parkour.github.io/static/images/preview.gif" />
@@ -61,32 +65,34 @@
     <div class="container">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Robot Parkour Learning</h1>
+          <h1 class="title is-2 publication-title">ScissorBot: Learning Generalizable Scissor Skill for
+            Paper Cutting <br> via Simulation, Imitation, and
+            Sim2Real</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://ziwenzhuang.github.io/">Ziwen Zhuang</a>*&nbsp;&nbsp;
-              <a href="https://zipengfu.github.io/">Zipeng Fu</a>*&nbsp;&nbsp;
-              <a href="https://www.jianrenw.com/">Jianren Wang</a>&nbsp;&nbsp;
-              <a href="http://www.cs.cmu.edu/~cga/">Christopher Atkeson</a>&nbsp;&nbsp;
-              <a href="https://robotics.shanghaitech.edu.cn/people/soeren">Sören Schwertfeger</a>&nbsp;&nbsp;
-              <a href="https://ai.stanford.edu/~cbfinn/">Chelsea Finn</a>&nbsp;&nbsp;
-              <a href="https://hangzhaomit.github.io/">Hang Zhao</a>
+              <a href="https://jiangranlv.github.io/">Jiangran Lyu</a>&nbsp;&nbsp;
+              <a href="">Yuxing Chen</a>&nbsp;&nbsp;
+              <a href="https://people.iiis.tsinghua.edu.cn/~taodu/">Tao Du</a>&nbsp;&nbsp;
+              <a href="">Feng Zhu</a>&nbsp;&nbsp;
+              <a href="">Huiquan Liu</a>&nbsp;&nbsp;
+              <a href="https://cfcs.pku.edu.cn/people/faculty/yizhouwang/index.htm">Yizhou Wang</a>&nbsp;&nbsp;
+              <a href="https://hughw19.github.io/">He Wang</a>
             </span>
           </div>
           <div class="column">
-              <image src="./static/images/logo.jpg" style="width: 60%;"></image>
+              <image src="./static/images/logo.jpg" style="width: 30%;"></image>
           </div>
-          <div class="is-size-4 publication-authors">
+          <!-- <div class="is-size-4 publication-authors">
             CoRL 2023 (Oral)
           </div>
           <div class="is-size-4 publication-authors">
             <b style="color:rgb(255, 100, 100);">Best Systems Paper Award Finalist (top 3)</b>
-          </div>
+          </div> -->
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="./resources/Robot_Parkour_Learning.pdf"
+                <a href="./resources/Paper_cutting.pdf"
                    class="external-link button is-normal is-rounded is-dark" target="_blank">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -95,27 +101,27 @@
                 </a>
               </span>
               <!-- arXiv Link. -->
-              <span class="link-block">
-                <a href="https://arxiv.org/abs/2309.05665"
+              <!-- <span class="link-block">
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark" target="_blank">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
                   </span>
                   <span>arXiv</span>
                 </a>
-              </span>
+              </span> -->
               <!-- OpenReview Link. -->
-              <!-- <span class="link-block">
-                <a href="https://openreview.net/forum?id=uo937r5eTE"
+              <span class="link-block">
+                <a href="https://openreview.net/forum?id=EndKKLLegn"
                    class="external-link button is-normal is-rounded is-dark" target="_blank">
                   <span class="icon">
                       <img src="static/images/openreview.ico"></img>
                   </span>
                   <span>OpenReview</span>
                 </a>
-              </span> -->
+              </span>
               <!-- Video Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://youtu.be/M7lDCSF0KP0"
                    class="external-link button is-normal is-rounded is-dark" target="_blank">
                   <span class="icon">
@@ -123,7 +129,7 @@
                   </span>
                   <span>Video</span>
                 </a>
-              </span>
+              </span> -->
               <!-- Bilibili Link. -->
               <!-- <span class="link-block">
                 <a href="https://www.bilibili.com/video/BV1Nu4y1C7ae/"
@@ -143,7 +149,7 @@
                 </a>
               </span> -->
               <!-- twitter Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://x.com/zipengfu/status/1701316023612219445?s=20"
                    class="external-link button is-normal is-rounded is-dark" target="_blank">
                   <span class="icon">
@@ -151,24 +157,24 @@
                   </span>
                   <span>Summary</span>
                 </a>
-              </span>
+              </span> -->
               <!-- Code Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://github.com/ZiwenZhuang/parkour" class="external-link button is-normal is-rounded is-dark" target="_blank">
                   <span class="icon">
-                      <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg><!-- <i class="fab fa-github"></i> Font Awesome fontawesome.com -->
+                      <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg><i class="fab fa-github"></i> Font Awesome fontawesome.com
                   </span>
                   <span>Code</span>
                 </a>
-              </span>
-              <span class="link-block">
+              </span> -->
+              <!-- <span class="link-block">
                 <a href="./cn.html" class="external-link button is-normal is-rounded is-dark" target="_blank">
                   <span class="icon">
                       <i class="fas fa-language"></i>
                   </span>
                   <span>中文</span>
                 </a>
-              </span>
+              </span> -->
             </div>
           </div>
         </div>
@@ -182,9 +188,12 @@
     <div class="columns is-centered">
       <div class="column is-full-width is-centered has-text-centered">
         <!-- <h2 class="title is-2" style="text-align: center;" id="method-video" >Real-World Robot Parkour Demos</h2> -->
-        <div class="publication-video">
+        <!-- <div class="publication-video">
           <iframe src="https://www.youtube.com/embed/M7lDCSF0KP0" title="Robot Parkour Learning (CoRL 2023)"
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div> -->
+        <div class="column is-full-width is-centered has-text-centered">
+          <video controls autoplay loop muted playsinline src="./resources/scissorbot_supp.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;width: 100%; max-width: 700px;"></video>
         </div>
       </div>
       <!-- <div class="column is-full-width is-centered has-text-centered">
@@ -206,7 +215,7 @@
         <h2 class="title is-2">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Parkour is a grand challenge for legged locomotion that requires robots to overcome various obstacles rapidly in complex environments. Existing methods can generate either diverse but blind locomotion skills or vision-based but specialized skills by using reference animal data or complex rewards. However, autonomous parkour requires robots to learn generalizable skills that are both vision-based and diverse to perceive and react to various scenarios. In this work, we propose a system for learning a single end-to-end vision-based parkour policy of diverse parkour skills using a simple reward without any reference motion data. We develop a reinforcement learning method inspired by direct collocation to generate parkour skills, including climbing over high obstacles, leaping over large gaps, crawling beneath low barriers, squeezing through thin slits, and running. We distill these skills into a single vision-based parkour policy and transfer it to a quadrupedal robot using its egocentric depth camera. We demonstrate that our system can empower two different low-cost robots to autonomously select and execute appropriate parkour skills to traverse challenging real-world environments.
+            This paper tackles the challenging robotic task of generalizable paper cutting using scissors. In this task, scissors attached to a robot arm are driven to accurately cut curves drawn on the paper, which is hung with the top edge fixed. Due to the frequent paper-scissor contact and consequent fracture, the paper features continual deformation and changing topology, which is diffult for accurate modeling.To deal with such versatile scenarios, we propose ScissorBot, the first learning-based system for robotic paper cutting with scissors via simulation, imitation learning and sim2real. Given the lack of sufficient data for this task, we build PaperCutting-Sim, a paper simulator supporting interactive fracture coupling with scissors, enabling demonstration generation with a heuristic-based oracle policy. To ensure effective execution, we customize an action primitive sequence for imitation learning to constrain its action space, thus alleviating potential compounding errors. Finally, by integrating sim-to-real techniques to bridge the gap between simulation and reality, our policy can be effectively deployed on the real robot. Experimental results demonstrate that our method surpasses all baselines in both simulation and real-world benchmarks and achives performance comparable to human operation with a single hand under the same conditions.
           </p>
         </div>
       </div>
@@ -216,215 +225,152 @@
 
 <section class="section">
   <div class="container">
-    <h2 class="title is-2" style="text-align: center;">Climb</h2>
+    <h2 class="title is-2" style="text-align: center;">Compared with baselines in the simulation</h2>
     <div class="columns is-centered">
       <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/climb/climb_1_1.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div>
-      <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/climb/climb_1_2.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/climb/climb_2.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div>
-      <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/climb/climb_husky_1.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/climb/climb_night_2.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div>
-      <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/climb/go1_climb_1.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <h2 class="title is-2" style="text-align: center;">Leap</h2>
-    <div class="columns is-centered">
-      <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/leap/leap_indoor_1.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div>
-      <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/leap/go1_leap_1.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/leap/leap_1_1.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div>
-      <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/leap/leap_1_2.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <h2 class="title is-2" style="text-align: center;">Crawl</h2>
-    <div class="columns is-centered">
-      <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/crawl/go1_crawl_1.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div>
-      <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/crawl/crawl_1_5.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/crawl/crawl_2_2.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div>
-      <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/crawl/crawl_1_4.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <h2 class="title is-2" style="text-align: center;">Tilt</h2>
-    <div class="columns is-centered">
-      <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/tilt/tilt_1.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div>
-      <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/tilt/tilt_2.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <h2 class="title is-2" style="text-align: center;">Emergent Re-trying Behaviors</h2>
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-two-thirds">
-        <div class="content has-text-justified">
-        <p>
-          Our parkour policy allows the robot to attempt overcoming an obstacle multiple times if it initially fails. The robot learns to push against the obstacle, ensuring adequate run-up space for subsequent attempts.
-        </p>
+        <video controls autoplay loop muted playsinline src="./resources/compare_in_sim/easy_predetect.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <img src="./resources/compare_in_sim/open_loop.png" alt="" style="width: 50%;" />
+        <div class="content is-two-third has-text-centered">
+          <p>
+            Open-loop Planning
+          </p>
         </div>
       </div>
-    </div>
-    <div class="columns is-centered">
       <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/retry/retry_1.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <video controls autoplay loop muted playsinline src="./resources/compare_in_sim/easy_tracking_152836.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <img src="./resources/compare_in_sim/online.png" alt="" style="width: 60%;" />
+        <p>
+          Online Fitting
+        </p>
       </div>
       <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/retry/retry_2.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <video controls autoplay loop muted playsinline src="./resources/compare_in_sim/easy_ours.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <img src="./resources/compare_in_sim/ours.png" alt="" style="width: 60%;" />
+        <p>
+          ScissorBot
+        </p>
       </div>
     </div>
   </div>
 </section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="title is-2" style="text-align: center;">Generalization on Middle and Hard tracks</h2>
+
+    <div class="columns is-centered">
+      <div class="column is-full has-text-left">
+        <p>Middle Tracks</p>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-one-third has-text-centered">
+        <video controls autoplay loop muted playsinline src="./resources/middle_hard_in_sim/middle_ours_1.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-one-third has-text-centered">
+        <video controls autoplay loop muted playsinline src="./resources/middle_hard_in_sim/middle_ours_2.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-one-third has-text-centered">
+        <video controls autoplay loop muted playsinline src="./resources/middle_hard_in_sim/middle_ours_3.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+    </div>
+
+    <div class="columns is-centered">
+      <div class="column is-full has-text-left">
+        <p>Hard Tracks</p>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-one-third has-text-centered">
+        <video controls autoplay loop muted playsinline src="./resources/middle_hard_in_sim/hard_leave1.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-one-third has-text-centered">
+        <video controls autoplay loop muted playsinline src="./resources/middle_hard_in_sim/hard_star1.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-one-third has-text-centered">
+        <video controls autoplay loop muted playsinline src="./resources/middle_hard_in_sim/hard_love1.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <div class="container">
+    <h2 class="title is-2" style="text-align: center;">Evaluation in the real world</h2>
+
+    <div class="columns is-centered">
+      <div class="column is-full has-text-left">
+        <p>Easy Tracks</p>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-one-third has-text-centered">
+        <video controls autoplay loop muted playsinline src="./resources/real_world/easy1.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-one-third has-text-centered">
+        <video controls autoplay loop muted playsinline src="./resources/real_world/easy2.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+    </div>
+
+    <div class="columns is-centered">
+      <div class="column is-full has-text-left">
+        <p>Middle Tracks</p>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-one-third has-text-centered">
+        <video controls autoplay loop muted playsinline src="./resources/real_world/middle1.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-one-third has-text-centered">
+        <video controls autoplay loop muted playsinline src="./resources/real_world/middle2.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+    </div>
+
+    <div class="columns is-centered">
+      <div class="column is-full has-text-left">
+        <p>Hard Tracks</p>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-one-third has-text-centered">
+        <video controls autoplay loop muted playsinline src="./resources/real_world/hard1.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-one-third has-text-centered">
+        <video controls autoplay loop muted playsinline src="./resources/real_world/hard2.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-one-third has-text-centered">
+        <video controls autoplay loop muted playsinline src="./resources/real_world/hard3.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <section class="section">
   <div class="container">
     <h2 class="title is-2" style="text-align: center;">Method</h2>
-    <h2 class="title is-4" style="text-align: center;">Stage 1: RL Pre-training with Soft Dynamics Constraints</h2>
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-two-thirds">
-        <div class="content has-text-justified">
-          <p>
-            In the RL pre-training stage, we allow robots to penetrate obstacles using an automatic curriculum that enforces soft dynamics constraints. This encourages robots to gradually learn to overcome these obstacles while minimizing penetrations. 
-          </p>
-        </div>
-      </div>
-    </div>
     <div class="columns is-centered">
-      <div class="column is-three-fifths is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/method/soft-dyanmics.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div>
-    </div>
-    <h2 class="title is-4" style="text-align: center;">Stage 2: RL Fine-tuning with Hard Dynamics Constraints</h2>
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-two-thirds">
-        <div class="content has-text-justified">
-          <p>
-            In the RL fine-tuning stage, we enforce all dynamics constraints and fine-tune the behaviors learned in the pre-training stage with realistic dynamics.         </p>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-three-fifths is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/method/hard-dynamics.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-      </div>
-    </div>
-    <h2 class="title is-4" style="text-align: center;">Stage 3: Learning a Vision-Based Parkour Policy via Distillation</h2>
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-two-thirds">
-        <div class="content has-text-justified">
-          <p>
-            After each individual parkour skill is learned, we use DAgger to distill them into a single vision-based parkour policy that can be deployed to a legged robot using only onboard perception and computation power.         
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-three-fifths is-centered has-text-centered">
-        <img src="./resources/method/distillation.png" alt="" style="width: 90%;" />
+      <div class="column is-centered has-text-centered">
+        <img src="./resources/method/pipeline.png" alt="" style="width: 80%; max-width: none;" />
       </div>
     </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <h2 class="title is-2" style="text-align: center;">Failure Cases</h2>
-    <div class="columns is-centered">
-      <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/failures/failure-climb-too-high.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-        <div class="content is-two-third has-text-centered">
-          <p>
-            The robot fails to climb very high obstacles of 0.8m, three times the robot height.
-          </p>
-        </div>
-      </div>
-      <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/failures/failure-leap-low-friction.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-        <div class="content is-two-third has-text-centered">
-        <p>
-          The robot fails to leap on a low-friction platform. The rear legs slip during leaping leading to not much forward momentum for the robot to reach the other side.
-        </p>
-        </div>
-      </div>
-      <div class="column is-full-width is-centered has-text-centered">
-        <video controls autoplay loop muted playsinline src="./resources/failures/failure-climb-soft-objects.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
-        <div class="content is-two-third has-text-centered">
-        <p>
-          The robot fails to climb a high and soft obstacle. 
-        </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
 
 
 <section class="section" id="BibTeX">
   <div class="container content">
     <h2 class="titile">BibTeX</h2>
-    <pre><code>@inproceedings{zhuang2023robot,
-  author    = {Zhuang, Ziwen and Fu, Zipeng and Wang, Jianren and Atkeson, Christopher and Schwertfeger, Sören and Finn, Chelsea and Zhao, Hang},
-  title     = {Robot Parkour Learning},
-  booktitle = {Conference on Robot Learning ({CoRL})},
-  year      = {2023},
-}</code></pre>
+    <pre><code>Comming Soon</code></pre>
   </div>
 </section>
 
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
-      <p>Page template borrowed from <a href="https://nerfies.github.io/"><span class="dnerf">Nerfies</span></a> and <a href="https://manipulation-locomotion.github.io/"><span class="dnerf">Deep-Whole-Body-Control</span></a>.</p>
+      <p>Page template borrowed from <a href="https://robot-parkour.github.io/"><span class="dnerf">Robot Parkour</span></a>.</p>
     </div>
   </div>
 </footer>
